@@ -15,7 +15,7 @@ see [https://llllllll.co/t/diy-norns-shield](https://llllllll.co/t/diy-norns-shi
 
 [monome.org](https://monome.org)
 
-full kit and SMD-populated PCB available from [monome.org](https://market.monome.org)
+full kit available from [monome.org](https://market.monome.org)
 
 ![](images/norns-shield.png)
 
