@@ -9272,20 +9272,13 @@ by exp-project-lbr.ulp</description>
 <junction x="119.38" y="66.04"/>
 </segment>
 </net>
-<net name="N$11" class="0">
-<segment>
-<pinref part="J1" gate="J$1" pin="T"/>
-<pinref part="R7" gate="G$1" pin="2"/>
-<wire x1="99.06" y1="93.98" x2="106.68" y2="93.98" width="0.1524" layer="91"/>
-</segment>
-</net>
 <net name="N$12" class="0">
 <segment>
-<pinref part="J1" gate="J$1" pin="R"/>
-<wire x1="99.06" y1="91.44" x2="104.14" y2="91.44" width="0.1524" layer="91"/>
 <wire x1="104.14" y1="91.44" x2="104.14" y2="66.04" width="0.1524" layer="91"/>
 <pinref part="R9" gate="G$1" pin="2"/>
 <wire x1="104.14" y1="66.04" x2="106.68" y2="66.04" width="0.1524" layer="91"/>
+<pinref part="J1" gate="J$1" pin="T"/>
+<wire x1="104.14" y1="91.44" x2="99.06" y2="93.98" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="N$14" class="0">
@@ -9305,8 +9298,9 @@ by exp-project-lbr.ulp</description>
 <pinref part="C15" gate="G$1" pin="1"/>
 <wire x1="200.66" y1="106.68" x2="203.2" y2="106.68" width="0.1524" layer="91"/>
 <wire x1="203.2" y1="106.68" x2="203.2" y2="104.14" width="0.1524" layer="91"/>
-<pinref part="J2" gate="J$1" pin="T"/>
-<wire x1="203.2" y1="106.68" x2="226.06" y2="106.68" width="0.1524" layer="91"/>
+<pinref part="J2" gate="J$1" pin="R"/>
+<wire x1="226.06" y1="104.14" x2="220.98" y2="106.68" width="0.1524" layer="91"/>
+<wire x1="220.98" y1="106.68" x2="203.2" y2="106.68" width="0.1524" layer="91"/>
 <junction x="203.2" y="106.68"/>
 </segment>
 </net>
@@ -9327,11 +9321,11 @@ by exp-project-lbr.ulp</description>
 <pinref part="C17" gate="G$1" pin="1"/>
 <wire x1="200.66" y1="78.74" x2="203.2" y2="78.74" width="0.1524" layer="91"/>
 <wire x1="203.2" y1="78.74" x2="203.2" y2="76.2" width="0.1524" layer="91"/>
-<pinref part="J2" gate="J$1" pin="R"/>
-<wire x1="226.06" y1="104.14" x2="220.98" y2="104.14" width="0.1524" layer="91"/>
 <wire x1="220.98" y1="104.14" x2="220.98" y2="78.74" width="0.1524" layer="91"/>
 <wire x1="220.98" y1="78.74" x2="203.2" y2="78.74" width="0.1524" layer="91"/>
 <junction x="203.2" y="78.74"/>
+<pinref part="J2" gate="J$1" pin="T"/>
+<wire x1="220.98" y1="104.14" x2="226.06" y2="106.68" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="+5V" class="0">
@@ -9540,6 +9534,13 @@ by exp-project-lbr.ulp</description>
 <pinref part="X1" gate="G$1" pin="GPIO13"/>
 <wire x1="78.74" y1="144.78" x2="81.28" y2="144.78" width="0.1524" layer="91"/>
 <label x="78.74" y="144.78" size="1.778" layer="95" rot="R180"/>
+</segment>
+</net>
+<net name="N$7" class="0">
+<segment>
+<pinref part="J1" gate="J$1" pin="R"/>
+<pinref part="R7" gate="G$1" pin="2"/>
+<wire x1="99.06" y1="91.44" x2="106.68" y2="93.98" width="0.1524" layer="91"/>
 </segment>
 </net>
 </nets>
